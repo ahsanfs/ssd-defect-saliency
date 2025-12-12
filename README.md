@@ -61,8 +61,8 @@ We compared this **Improved Method** against the **Baseline (Hou & Zhang, 2007)*
 ### 2. Confidence Classification
 The system computes a **Contrast-to-Noise Ratio (CNR)** to determine the confidence of a detection, enabling robot decision-making for Human-Robot Collaboration task:
 * **CNR < 1.5:** Status **CLEAN**
-* **1.5 < CNR < 4.0:** Status **NOT SURE** (Ask Human)
-* **CNR > 4.0:** Status **DEFECT DETECTED**
+* **1.5 < CNR < 6.0:** Status **NOT SURE** (Ask Human help for inspection)
+* **CNR > 6.0:** Status **DEFECT DETECTED**
 
 ## 📄 References
 1.  X. Hou and L. Zhang, "Saliency Detection: A Spectral Residual Approach," *IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2007.
