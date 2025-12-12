@@ -17,7 +17,7 @@ Standard saliency detection methods (like Hou & Zhang, CVPR 2007) often fail on 
 The code relies on standard Python computer vision libraries.
 
 **Environment:**
-* Python 3.8+
+* Python 3.10+
 * OS: Linux
 
 ## 🚀 Usage
